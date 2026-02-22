@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+- NestJS 11 backend with CRUD REST API for todos (`backend/`)
+- Abstract `TodoRepository` pattern for database-agnostic persistence
+- JSON file mock data store (`backend/data/todos.json`) — swap-ready for any database
+- Angular 21 frontend with signals, new control-flow syntax (`@for`, `@if`), and `provideHttpClient`
+- Tailwind CSS v4 with `postcss.config.json` integration for Angular's esbuild pipeline
+- Minimal todo UI: add, toggle complete, delete, filter (All / Active / Completed)
+- Root `package.json` with `npm start` command that runs both backend and frontend via `concurrently`
+- `README.md` with install, start, API, and database-swap instructions
+
 ## [1.0.0] — 2026-02-22
 
 ### Added
