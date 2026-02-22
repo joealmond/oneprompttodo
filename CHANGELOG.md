@@ -13,6 +13,12 @@ All notable changes to this project will be documented in this file.
 - Minimal todo UI: add, toggle complete, delete, filter (All / Active / Completed)
 - Root `package.json` with `npm start` command that runs both backend and frontend via `concurrently`
 - `README.md` with install, start, API, and database-swap instructions
+- Portfolio blog with SSG: Home, Blog, Projects, and Todo routes
+- Responsive navigation with desktop nav bar and mobile hamburger menu
+- Angular SSR/SSG via `@angular/ssr` — 6 routes prerendered at build time
+- Blog section with 3 starter articles (blog-data.ts) and individual post views
+- Projects showcase page highlighting the Todo app and Portfolio blog
+- GitHub Pages deployment instructions and hosting guide in README
 
 ## [1.0.0] — 2026-02-22
 
