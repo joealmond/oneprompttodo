@@ -7,7 +7,7 @@ import { Todo } from './todo.model';
   selector: 'app-todos',
   imports: [FormsModule],
   template: `
-    <div class="min-h-screen bg-slate-100 flex items-start justify-center pt-16 px-4">
+    <div class="flex items-start justify-center pt-16 pb-16 px-4">
       <div class="w-full max-w-md bg-white rounded-2xl shadow-lg p-6">
         <h1 class="text-3xl font-bold text-indigo-600 mb-6 text-center">✅ Todo App</h1>
 
