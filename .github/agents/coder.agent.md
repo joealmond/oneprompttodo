@@ -1,11 +1,6 @@
 ---
 name: Coder
 description: "Implementation agent — writes code, fixes bugs, writes tests. Has access to all tools."
-model:
-  - "Claude Opus 4.6 (copilot)"
-  - "Gemini 3.1 Pro (copilot)"
-  - "Claude Sonnet 4.6 (copilot)"
-  - "Gemini 3 Pro (copilot)"
 ---
 
 # Coder Agent
