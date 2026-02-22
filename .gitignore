@@ -1,0 +1,21 @@
+node_modules/
+dist/
+
+# Backend build artifacts
+backend/dist/
+
+# Frontend build artifacts
+frontend/dist/
+frontend/.angular/
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
